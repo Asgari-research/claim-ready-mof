@@ -1,0 +1,16 @@
+manuscript_label,file_stem,placement,status,role
+Figure 1,Figure_1_claim_readiness_framework,Main,Final,Evidence chain / claim-readiness framework
+Figure 2,Figure_2_data_resource_atlas,Main,Final,Resource atlas and row-level evidence observation
+Figure 3,Figure_3_chemistry_evidence_trust_regimes,Main,Final,Chemistry evidence / validation-observability regimes
+Figure 4,Figure_4_trust_readiness_risk_matrix,Main,Final,"Claim-readiness coordinates, weighting sensitivity, and risk rubric"
+Figure 5,Figure_5_ml_stress_test,Main,Final,ML repeated-split / ranking stress test
+Figure S0,SI_Figure_S0_inventory_aware_input_map,SI,Final,Inventory-aware input map
+Figure S1,SI_Figure_S1_inventory_profile,SI,Final,File inventory profile
+Figure S2,SI_Figure_S2_missingness_column_types,SI,Final,Missingness / column-type profile
+Figure S3,SI_Figure_S3_join_accounting,SI,Final,Identifier and join accounting; single panel
+Figure S4,SI_Figure_S4_coverage_profiles,SI,Final,Coverage / trust profiles
+Figure S5,SI_Figure_S5_trust_score_sensitivity,SI,Final,Trust/readiness score sensitivity; single panel
+Figure S6,SI_Figure_S6_ml_repeated_splits,SI,Final,Complete repeated-split performance distributions
+Figure S7,SI_Figure_S7_duplicate_leakage,SI,Final,Profile-quality diagnostics; historical filename only
+Figure S8,SI_Figure_S8_rule_cards,SI,Final,Representative chemistry rule cards
+Figure S9,SI_Figure_S9_decision_framework,SI,Final,Decision/reporting framework moved from former main Figure 6
