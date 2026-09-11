@@ -1,4 +1,4 @@
-# Paper 13 final figure style specification
+# Final figure style specification
 
 ## Output
 - PDF for final manuscript use.

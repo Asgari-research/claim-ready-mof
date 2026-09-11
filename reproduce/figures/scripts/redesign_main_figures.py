@@ -30,7 +30,7 @@ def _sha256(path: Path) -> str:
 
 def setup_font(allow_fallback=False):
     candidates=[]
-    env=os.environ.get("PAPER13_ARIAL_DIR")
+    env=os.environ.get("CLAIM_READY_MOF_ARIAL_DIR")
     if env:
         candidates += [Path(env)/"arial.ttf", Path(env)/"arialbd.ttf"]
     if platform.system().lower().startswith("win"):
@@ -47,7 +47,7 @@ def setup_font(allow_fallback=False):
         if not allow_fallback:
             raise SystemExit(
                 "Arial was not found. On Windows it should normally be in C:\\Windows\\Fonts. "
-                "Set PAPER13_ARIAL_DIR to a lawful installed Arial folder, or use --allow-font-fallback only for QA previews."
+                "Set CLAIM_READY_MOF_ARIAL_DIR to a lawfully installed Arial folder, or use --allow-font-fallback only for QA previews."
             )
         resolved=font_manager.findfont("DejaVu Sans")
         family="DejaVu Sans"
@@ -307,23 +307,23 @@ def fig5():
 FIGFUN={1:fig1,2:fig2,3:fig3,4:fig4,5:fig5}
 
 def main():
-    ap=argparse.ArgumentParser(description='Regenerate redesigned Paper 13 main figures 1-5 from frozen saved CSVs only; the decision framework is SI Figure S9.')
+    ap=argparse.ArgumentParser(description='Regenerate final main figures 1-5 from frozen saved CSVs only; the decision framework is SI Figure S9.')
     ap.add_argument('--figures',nargs='*',type=int,default=[1,2,3,4,5],choices=[1,2,3,4,5])
     ap.add_argument('--allow-font-fallback',action='store_true',help='QA preview only; final Windows run should use Arial.')
     args=ap.parse_args()
     family,fontpath=setup_font(args.allow_font_fallback)
-    print("[Paper13 PATCH v5] Main generator loaded")
+    print("[claim-ready-mof] Main figure renderer")
     OUT.mkdir(parents=True,exist_ok=True); QA.mkdir(parents=True,exist_ok=True)
     for ext in ['pdf','svg','png']:
         stale=OUT/f'Figure_6_decision_framework.{ext}'
         if stale.exists():
             stale.unlink()
-            print(f'[Paper13] Removed stale main-figure file: {stale.name}')
-    for n in args.figures: print(f'[Paper13] Rendering Figure {n} ...'); FIGFUN[n]()
+            print(f'[claim-ready-mof] Removed stale main-figure file: {stale.name}')
+    for n in args.figures: print(f'[claim-ready-mof] Rendering Figure {n} ...'); FIGFUN[n]()
     inputs={p.name:_sha256(p) for p in sorted(DATA.glob('*.csv'))}
     outputs={p.name:_sha256(p) for p in sorted(OUT.glob('*')) if p.is_file()}
     manifest={'generated_utc':datetime.now(timezone.utc).isoformat(),'font_family':family,'font_file':str(fontpath),'figures':args.figures,'input_sha256':inputs,'output_sha256':outputs,'note':'Saved results only; no model fitting, descriptor generation, or chemistry reclassification.'}
     (QA/'main_generation_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
-    print(f'[Paper13] Done. Outputs: {OUT}')
-    print(f'[Paper13] Font resolved: {family} -> {fontpath}')
+    print(f'[claim-ready-mof] Outputs: {OUT}')
+    print(f'[claim-ready-mof] Font: {family} -> {fontpath}')
 if __name__=='__main__': main()

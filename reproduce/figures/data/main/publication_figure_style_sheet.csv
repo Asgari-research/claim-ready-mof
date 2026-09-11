@@ -1,0 +1,22 @@
+category,item,short_label,color_hex,usage
+resource,MOSAEC-DB,MOSAEC,#009E73,resource identity in figures and captions
+resource,CoRE MOF 2024,CoRE-24,#0072B2,resource identity in figures and captions
+resource,CoRE MOF 2025 metadata,CoRE-25,#56B4E9,resource identity in figures and captions
+resource,ARC-MOF,ARC-MOF,#CC79A7,resource identity in figures and captions
+resource,QMOF,QMOF,#E69F00,resource identity in figures and captions
+resource,CSD-derived context,CSD ctx,#D55E00,resource identity in figures and captions
+resource,Other/unknown,Other,#999999,resource identity in figures and captions
+resource,Task-specific joins,Joins,#666666,resource identity in figures and captions
+trust_regime,validated_observable,validated observable,#009E73,chemistry evidence/trust status
+trust_regime,validated_not_observable,validated not observable,#56B4E9,chemistry evidence/trust status
+trust_regime,uncertain_observable,uncertain observable,#E69F00,chemistry evidence/trust status
+trust_regime,uncertain_unobservable,uncertain unobservable,#999999,chemistry evidence/trust status
+trust_regime,flagged_or_inconsistent,flagged or inconsistent,#D55E00,chemistry evidence/trust status
+ml_split,random,random,#0072B2,random versus descriptor-grouped ML split
+ml_split,descriptor_grouped,descriptor grouped,#E69F00,random versus descriptor-grouped ML split
+ml_split,grouped,grouped,#E69F00,random versus descriptor-grouped ML split
+typography,main-panel-font-minimum,≥8 pt,,minimum readable size after journal scaling
+typography,panel-label,bold 14 pt,,panel labels a–d
+export,main figures,PDF + SVG + 600-dpi PNG,,"PDF for LaTeX, SVG for editing, PNG for inspection"
+caption_caveat,not observable,not directly present in parsed metadata; not invalid,,mandatory phrase for Figure 3/captions
+caption_caveat,score uncertainty,"bootstrap CI for reporting score, not true chemical validity",,mandatory phrase for Figure 4/captions

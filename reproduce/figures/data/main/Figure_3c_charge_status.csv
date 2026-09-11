@@ -1,0 +1,9 @@
+resource,charge_status,fraction,n_rows
+MOSAEC-DB,neutral_or_balanced,0.5573833360245438,110460
+MOSAEC-DB,nonzero_charge_uncertain,0.0683987970289036,13555
+MOSAEC-DB,not_observable,0.3742178669465525,74161
+CoRE MOF 2024,not_observable,1.0,28132
+CoRE MOF 2025 metadata,not_scanned,1.0,0
+ARC-MOF,not_scanned,1.0,0
+QMOF,not_observable,1.0,20372
+CSD-derived context,not_observable,1.0,25285

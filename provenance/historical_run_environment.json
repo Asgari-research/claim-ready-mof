@@ -1,0 +1,71 @@
+{
+  "generated": "2026-07-30T10:25:42",
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "script_version": "2.2-claim-ready-sciml-visual-final",
+  "config": {
+    "data_root": "<DATA_ROOT>",
+    "out_dir": "<OUTPUT_ROOT>",
+    "inventory_report": "<DATA_ROOT>/PROJECT_DATA_ARCHIVE_STRUCTURE_AND_CONTENTS.zip",
+    "save_mode": "balanced",
+    "ram_mode": "light",
+    "comprehensive_level": "thorough",
+    "n_jobs": 1,
+    "random_seed": 42,
+    "force": true,
+    "resume": true,
+    "profile_only": false,
+    "skip_ml": false,
+    "target_column": null,
+    "id_column": null,
+    "max_files": null,
+    "file_pattern": null,
+    "skip_row_count": false,
+    "no_zip": false,
+    "save": {
+      "csv": true,
+      "pkl": true,
+      "parquet": true,
+      "xlsx": true,
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "models": false,
+      "zip": true
+    },
+    "ram": {
+      "profile_nrows": 50000,
+      "max_loaded_rows": 120000,
+      "max_model_rows": 60000,
+      "max_features": 500,
+      "full_mb": 150,
+      "count_large": true
+    },
+    "level": {
+      "repeats": 10,
+      "models": [
+        "dummy",
+        "ridge",
+        "hgb",
+        "randomforest",
+        "extratrees"
+      ],
+      "splits": [
+        "random",
+        "grouped"
+      ],
+      "sensitivity": 300,
+      "targets": 5,
+      "cards": 40
+    }
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "sklearn_available": true,
+    "scipy_available": true,
+    "parquet_available": true,
+    "excel_available": true
+  }
+}

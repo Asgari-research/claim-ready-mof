@@ -1,0 +1,7 @@
+resource,IDs,formula,chemistry,descriptors,targets,curation
+MOSAEC-DB,1,1,1,1,0,1
+CoRE MOF 2024,1,1,1,0,1,0
+CoRE MOF 2025 metadata,1,0,1,0,1,1
+ARC-MOF,1,0,1,1,1,0
+QMOF,1,1,0,0,1,0
+CSD-derived context,1,0,1,0,1,0

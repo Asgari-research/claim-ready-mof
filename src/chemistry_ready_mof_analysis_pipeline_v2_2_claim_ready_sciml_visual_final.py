@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Paper 13 analysis pipeline.
+"""Historical analysis pipeline for the claim-ready MOF study.
 
 This is the preserved scientific analysis source supplied for the study
 "From Computation-Ready to Claim-Ready: Evidence-Aware Data for MOF Machine Learning".
@@ -13,7 +13,7 @@ and writes intermediate outputs for auditability.
 Important release note
 ----------------------
 This source is preserved to document the historical analysis. The public figure
-redraw workflow is maintained separately under ``reproduce/figures/paper13``
+redraw workflow is maintained separately under ``reproduce/figures``
 and operates only on frozen saved tables. The historical analysis environment,
 complete raw inputs, and every intermediate output are not all present in the
 current release materials; therefore this file should not be described as an

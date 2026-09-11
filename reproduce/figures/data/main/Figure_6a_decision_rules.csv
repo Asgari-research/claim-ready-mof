@@ -1,0 +1,6 @@
+step,question,yes_action,no_action
+1,"What is the scientific claim: adsorption ranking, process screening, quantum prediction, generative design or mechanistic interpretation?","Choose resource/subset by claim, not by database size alone.",Do not use a generic leaderboard interpretation.
+2,"Are target variables explicitly normalized as primary targets, coordinates, uncertainties, identifiers or metadata?",Use only primary targets as labels and report coordinates/uncertainties separately.,Do not mix pressure/error/id columns with labels.
+3,"For mixed-gas files, is gas/temperature assigned from the column before the filename?",Use the v1.4 target-context catalog.,Do not report gas-specific results.
+4,"Is the claim sensitive to oxidation state, charge, open metal sites or ionic context?","Separate validated-observable, validated-not-observable, uncertain and flagged cases.",Report provenance and missingness; chemistry flags may be secondary.
+5,Does performance remain stable under grouped or chemistry-aware splits?,Benchmark conclusion is more robust.,Phrase claims as interpolation or convenience-screening performance.

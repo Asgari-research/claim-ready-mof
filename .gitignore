@@ -1,55 +1,44 @@
-# Python bytecode / caches
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Virtual environments
+# Environments
 .venv/
 venv/
 env/
 ENV/
+.env
+.env.*
 
-# IDE / OS artifacts
+# IDE / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Notebook caches
 .ipynb_checkpoints/
 
-# Test / build caches
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-build/
-dist/
-*.egg-info/
+# Generated figure outputs and QA
+reproduce/figures/outputs/
+reproduce/figures/qa/
 
-# Paper 13 local regeneration products
-reproduce/figures/paper13/outputs/
-reproduce/figures/paper13/qa/
-.paper13_*
-
-# Local backups and temporary release-prep material
+# Local temporary / backup material
 work_backups/
 *_backup/
 *.bak
 *.tmp
 *.temp
 
-# Credentials / environment secrets
-.env
-.env.*
+# Credentials
 *.pem
 *.key
 credentials*
 secrets*
 
-# Do not casually commit raw third-party source archives
-# (review explicitly before overriding any of these patterns)
+# Raw third-party datasets are not part of this repository
 data/raw/
 raw_data/
 raw/

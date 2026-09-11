@@ -1,0 +1,6 @@
+use_case,preferred_resource_logic,minimum_reporting
+Adsorption ranking,"Use ARC-MOF adsorption/process resources with explicit target context, grouped splits and chemistry-observability caveats.","gas/pressure/temperature/property/unit, identifier joins, top-k stability, trust regime"
+Process screening,Use process tables only after documenting target definitions and leakage-prone cycle descriptors.,"cycle target definition, row retention, duplicate policy, grouped split"
+Quantum-property prediction,Use QMOF/DFT-consistent resources when electronic-structure consistency is central.,"DFT settings, units, failed calculations, chemistry flags"
+Generative-model training,"Prefer chemistry-validated, duplicate-controlled subsets and report not-observable cases separately.","validity filters, duplicate groups, charge/oxidation warnings"
+Mechanistic interpretation,Prioritize chemically interpretable subsets over maximum size.,rule cards and manual check examples

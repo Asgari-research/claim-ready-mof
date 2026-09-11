@@ -1,0 +1,201 @@
+resource,metal_family_primary,trust_regime_row,n,fraction
+CSD-derived context,not_observable,uncertain_unobservable,25285,1.0
+CoRE MOF 2024,Ag,validated_not_observable,151,1.0
+CoRE MOF 2024,Al,validated_not_observable,70,1.0
+CoRE MOF 2024,Au,validated_not_observable,2,1.0
+CoRE MOF 2024,Bi,validated_not_observable,9,1.0
+CoRE MOF 2024,Ca,validated_not_observable,3,1.0
+CoRE MOF 2024,Cd,validated_not_observable,865,1.0
+CoRE MOF 2024,Ce,validated_not_observable,101,1.0
+CoRE MOF 2024,Co,validated_not_observable,841,1.0
+CoRE MOF 2024,Cr,validated_not_observable,22,1.0
+CoRE MOF 2024,Cu,validated_not_observable,993,1.0
+CoRE MOF 2024,Fe,validated_not_observable,150,1.0
+CoRE MOF 2024,Ga,validated_not_observable,24,1.0
+CoRE MOF 2024,Hf,validated_not_observable,14,1.0
+CoRE MOF 2024,In,validated_not_observable,152,1.0
+CoRE MOF 2024,Ir,validated_not_observable,2,1.0
+CoRE MOF 2024,La,validated_not_observable,103,1.0
+CoRE MOF 2024,Mg,validated_not_observable,78,1.0
+CoRE MOF 2024,Mn,validated_not_observable,256,1.0
+CoRE MOF 2024,Mo,validated_not_observable,12,1.0
+CoRE MOF 2024,Na,validated_not_observable,3,1.0
+CoRE MOF 2024,Nb,validated_not_observable,1,1.0
+CoRE MOF 2024,Ni,validated_not_observable,337,1.0
+CoRE MOF 2024,Pb,validated_not_observable,15,1.0
+CoRE MOF 2024,Pd,validated_not_observable,8,1.0
+CoRE MOF 2024,Pt,validated_not_observable,4,1.0
+CoRE MOF 2024,Rh,validated_not_observable,3,1.0
+CoRE MOF 2024,Ru,validated_not_observable,10,1.0
+CoRE MOF 2024,Sc,validated_not_observable,21,1.0
+CoRE MOF 2024,Sn,validated_not_observable,1,1.0
+CoRE MOF 2024,Ti,validated_not_observable,15,1.0
+CoRE MOF 2024,V,validated_not_observable,42,1.0
+CoRE MOF 2024,W,validated_not_observable,2,1.0
+CoRE MOF 2024,Y,validated_not_observable,47,1.0
+CoRE MOF 2024,Zn,validated_not_observable,1750,1.0
+CoRE MOF 2024,Zr,validated_not_observable,129,1.0
+CoRE MOF 2024,not_observable,validated_not_observable,21896,1.0
+MOSAEC-DB,Ag,flagged_or_inconsistent,2323,0.22014783927217588
+MOSAEC-DB,Ag,validated_not_observable,8229,0.7798521607278242
+MOSAEC-DB,Al,flagged_or_inconsistent,60,0.1125703564727955
+MOSAEC-DB,Al,validated_not_observable,473,0.8874296435272045
+MOSAEC-DB,Au,flagged_or_inconsistent,79,0.0854978354978355
+MOSAEC-DB,Au,validated_not_observable,845,0.9145021645021645
+MOSAEC-DB,Ba,flagged_or_inconsistent,29,0.019230769230769232
+MOSAEC-DB,Ba,validated_not_observable,1479,0.9807692307692307
+MOSAEC-DB,Bi,flagged_or_inconsistent,53,0.07454289732770746
+MOSAEC-DB,Bi,validated_not_observable,658,0.9254571026722925
+MOSAEC-DB,Ca,flagged_or_inconsistent,159,0.06357457017193123
+MOSAEC-DB,Ca,validated_not_observable,2342,0.9364254298280688
+MOSAEC-DB,Cd,flagged_or_inconsistent,828,0.03656274838823633
+MOSAEC-DB,Cd,validated_not_observable,21818,0.9634372516117636
+MOSAEC-DB,Ce,flagged_or_inconsistent,59,0.03891820580474934
+MOSAEC-DB,Ce,validated_not_observable,1457,0.9610817941952506
+MOSAEC-DB,Co,flagged_or_inconsistent,924,0.048394699628135966
+MOSAEC-DB,Co,validated_not_observable,18169,0.9516053003718641
+MOSAEC-DB,Cr,flagged_or_inconsistent,67,0.11837455830388692
+MOSAEC-DB,Cr,validated_not_observable,499,0.8816254416961131
+MOSAEC-DB,Cu,flagged_or_inconsistent,2565,0.08116061258068599
+MOSAEC-DB,Cu,validated_not_observable,29039,0.918839387419314
+MOSAEC-DB,Fe,flagged_or_inconsistent,756,0.1496437054631829
+MOSAEC-DB,Fe,validated_not_observable,4296,0.850356294536817
+MOSAEC-DB,Ga,flagged_or_inconsistent,64,0.1833810888252149
+MOSAEC-DB,Ga,validated_not_observable,285,0.8166189111747851
+MOSAEC-DB,Hf,validated_not_observable,46,1.0
+MOSAEC-DB,Hg,flagged_or_inconsistent,36,0.02121390689451974
+MOSAEC-DB,Hg,validated_not_observable,1661,0.9787860931054803
+MOSAEC-DB,In,flagged_or_inconsistent,110,0.15602836879432624
+MOSAEC-DB,In,validated_not_observable,595,0.8439716312056738
+MOSAEC-DB,Ir,flagged_or_inconsistent,7,0.14893617021276595
+MOSAEC-DB,Ir,validated_not_observable,40,0.851063829787234
+MOSAEC-DB,K,flagged_or_inconsistent,169,0.04185240217929668
+MOSAEC-DB,K,validated_not_observable,3869,0.9581475978207034
+MOSAEC-DB,La,flagged_or_inconsistent,111,0.05
+MOSAEC-DB,La,validated_not_observable,2109,0.95
+MOSAEC-DB,Li,flagged_or_inconsistent,124,0.046130952380952384
+MOSAEC-DB,Li,validated_not_observable,2564,0.9538690476190477
+MOSAEC-DB,Mg,flagged_or_inconsistent,116,0.08929946112394149
+MOSAEC-DB,Mg,validated_not_observable,1183,0.9107005388760585
+MOSAEC-DB,Mn,flagged_or_inconsistent,943,0.07756209902944564
+MOSAEC-DB,Mn,validated_not_observable,11215,0.9224379009705543
+MOSAEC-DB,Mo,flagged_or_inconsistent,189,0.1346153846153846
+MOSAEC-DB,Mo,validated_not_observable,1215,0.8653846153846154
+MOSAEC-DB,Na,flagged_or_inconsistent,226,0.043857946827091016
+MOSAEC-DB,Na,validated_not_observable,4927,0.956142053172909
+MOSAEC-DB,Nb,flagged_or_inconsistent,20,0.17857142857142858
+MOSAEC-DB,Nb,validated_not_observable,92,0.8214285714285714
+MOSAEC-DB,Ni,flagged_or_inconsistent,455,0.052298850574712646
+MOSAEC-DB,Ni,validated_not_observable,8245,0.9477011494252874
+MOSAEC-DB,Pb,flagged_or_inconsistent,93,0.02403721891961747
+MOSAEC-DB,Pb,validated_not_observable,3776,0.9759627810803825
+MOSAEC-DB,Pd,flagged_or_inconsistent,25,0.20161290322580644
+MOSAEC-DB,Pd,validated_not_observable,99,0.7983870967741935
+MOSAEC-DB,Pt,flagged_or_inconsistent,48,0.2823529411764706
+MOSAEC-DB,Pt,validated_not_observable,122,0.7176470588235294
+MOSAEC-DB,Rh,flagged_or_inconsistent,34,0.08831168831168831
+MOSAEC-DB,Rh,validated_not_observable,351,0.9116883116883117
+MOSAEC-DB,Ru,flagged_or_inconsistent,76,0.20430107526881722
+MOSAEC-DB,Ru,validated_not_observable,296,0.7956989247311828
+MOSAEC-DB,Sc,flagged_or_inconsistent,19,0.07851239669421488
+MOSAEC-DB,Sc,validated_not_observable,223,0.9214876033057852
+MOSAEC-DB,Sn,flagged_or_inconsistent,59,0.02988855116514691
+MOSAEC-DB,Sn,validated_not_observable,1915,0.9701114488348531
+MOSAEC-DB,Sr,flagged_or_inconsistent,78,0.05379310344827586
+MOSAEC-DB,Sr,validated_not_observable,1372,0.9462068965517242
+MOSAEC-DB,Ta,flagged_or_inconsistent,4,0.21052631578947367
+MOSAEC-DB,Ta,validated_not_observable,15,0.7894736842105263
+MOSAEC-DB,Ti,flagged_or_inconsistent,22,0.07665505226480836
+MOSAEC-DB,Ti,validated_not_observable,265,0.9233449477351916
+MOSAEC-DB,V,flagged_or_inconsistent,108,0.08417770849571317
+MOSAEC-DB,V,validated_not_observable,1175,0.9158222915042868
+MOSAEC-DB,W,flagged_or_inconsistent,108,0.2049335863377609
+MOSAEC-DB,W,validated_not_observable,419,0.7950664136622391
+MOSAEC-DB,Y,flagged_or_inconsistent,43,0.05143540669856459
+MOSAEC-DB,Y,validated_not_observable,793,0.9485645933014354
+MOSAEC-DB,Zn,flagged_or_inconsistent,1252,0.045206716013720886
+MOSAEC-DB,Zn,validated_not_observable,26443,0.9547932839862792
+MOSAEC-DB,Zr,flagged_or_inconsistent,27,0.06040268456375839
+MOSAEC-DB,Zr,validated_not_observable,420,0.9395973154362416
+MOSAEC-DB,not_observable,flagged_or_inconsistent,1087,0.05257811744219793
+MOSAEC-DB,not_observable,validated_not_observable,19587,0.947421882557802
+Other/unknown,Ag,uncertain_unobservable,226,1.0
+Other/unknown,Al,uncertain_unobservable,69,1.0
+Other/unknown,Au,uncertain_unobservable,12,1.0
+Other/unknown,Ba,uncertain_unobservable,37,1.0
+Other/unknown,Bi,uncertain_unobservable,3,1.0
+Other/unknown,Ca,uncertain_unobservable,53,1.0
+Other/unknown,Cd,uncertain_unobservable,481,1.0
+Other/unknown,Ce,uncertain_unobservable,84,1.0
+Other/unknown,Co,uncertain_unobservable,524,1.0
+Other/unknown,Cr,uncertain_unobservable,14,1.0
+Other/unknown,Cu,uncertain_unobservable,687,1.0
+Other/unknown,Fe,uncertain_unobservable,139,1.0
+Other/unknown,Ga,uncertain_unobservable,34,1.0
+Other/unknown,Hf,uncertain_unobservable,1,1.0
+Other/unknown,In,uncertain_unobservable,97,1.0
+Other/unknown,Ir,uncertain_unobservable,3,1.0
+Other/unknown,K,uncertain_unobservable,60,1.0
+Other/unknown,La,uncertain_unobservable,112,1.0
+Other/unknown,Li,uncertain_unobservable,30,1.0
+Other/unknown,Mg,uncertain_unobservable,116,1.0
+Other/unknown,Mn,uncertain_unobservable,351,1.0
+Other/unknown,Mo,uncertain_unobservable,12,1.0
+Other/unknown,Na,uncertain_unobservable,68,1.0
+Other/unknown,Nb,uncertain_unobservable,6,1.0
+Other/unknown,Ni,uncertain_unobservable,219,1.0
+Other/unknown,Pb,uncertain_unobservable,5,1.0
+Other/unknown,Pd,uncertain_unobservable,1,1.0
+Other/unknown,Pt,uncertain_unobservable,1,1.0
+Other/unknown,Ru,uncertain_unobservable,8,1.0
+Other/unknown,Sc,uncertain_unobservable,21,1.0
+Other/unknown,Sn,uncertain_unobservable,2,1.0
+Other/unknown,Sr,uncertain_unobservable,28,1.0
+Other/unknown,Ti,uncertain_unobservable,7,1.0
+Other/unknown,V,uncertain_unobservable,68,1.0
+Other/unknown,W,uncertain_unobservable,2,1.0
+Other/unknown,Y,uncertain_unobservable,29,1.0
+Other/unknown,Zn,uncertain_unobservable,923,1.0
+Other/unknown,Zr,uncertain_unobservable,29,1.0
+Other/unknown,not_observable,uncertain_unobservable,749,1.0
+QMOF,Ag,uncertain_observable,1173,1.0
+QMOF,Al,uncertain_observable,1101,1.0
+QMOF,Au,uncertain_observable,67,1.0
+QMOF,Ba,uncertain_observable,155,1.0
+QMOF,Bi,uncertain_observable,56,1.0
+QMOF,Ca,uncertain_observable,242,1.0
+QMOF,Cd,uncertain_observable,2680,1.0
+QMOF,Ce,uncertain_observable,16,1.0
+QMOF,Co,uncertain_observable,968,1.0
+QMOF,Cr,uncertain_observable,34,1.0
+QMOF,Cu,uncertain_observable,2988,1.0
+QMOF,Fe,uncertain_observable,241,1.0
+QMOF,Ga,uncertain_observable,35,1.0
+QMOF,Hf,uncertain_observable,44,1.0
+QMOF,Hg,uncertain_observable,383,1.0
+QMOF,In,uncertain_observable,60,1.0
+QMOF,Ir,uncertain_observable,2,1.0
+QMOF,K,uncertain_observable,300,1.0
+QMOF,La,uncertain_observable,165,1.0
+QMOF,Li,uncertain_observable,255,1.0
+QMOF,Mg,uncertain_observable,191,1.0
+QMOF,Mn,uncertain_observable,695,1.0
+QMOF,Mo,uncertain_observable,80,1.0
+QMOF,Na,uncertain_observable,322,1.0
+QMOF,Nb,uncertain_observable,2,1.0
+QMOF,Ni,uncertain_observable,555,1.0
+QMOF,Pb,uncertain_observable,265,1.0
+QMOF,Pd,uncertain_observable,17,1.0
+QMOF,Pt,uncertain_observable,10,1.0
+QMOF,Rh,uncertain_observable,28,1.0
+QMOF,Ru,uncertain_observable,29,1.0
+QMOF,Sc,uncertain_observable,18,1.0
+QMOF,Sn,uncertain_observable,141,1.0
+QMOF,Sr,uncertain_observable,119,1.0
+QMOF,Ti,uncertain_observable,15,1.0
+QMOF,V,uncertain_observable,58,1.0
+QMOF,W,uncertain_observable,3,1.0
+QMOF,Y,uncertain_observable,57,1.0
+QMOF,Zn,uncertain_observable,4827,1.0
+QMOF,Zr,uncertain_observable,273,1.0
+QMOF,not_observable,uncertain_unobservable,1702,1.0

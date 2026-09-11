@@ -19,7 +19,7 @@ for group,stems in [('main',MAIN),('si',SI)]:
             p=ROOT/'outputs'/group/f'{stem}.{ext}'
             rows.append((p.relative_to(ROOT).as_posix(),p.exists(),p.stat().st_size if p.exists() else 0))
 missing=[r for r in rows if not r[1] or r[2]<1000]
-report=['# Paper 13 figure-output QA','','File-level QA after regeneration. This does not replace scientific manuscript review.','',
+report=['# Claim-ready MOF figure-output QA','','File-level QA after regeneration. This does not replace scientific manuscript review.','',
         f'- Expected figures: {len(MAIN)+len(SI)} (5 main + 10 SI, S0-S9)',
         f'- Expected exported assets: {len(rows)} (PDF + SVG + PNG)',
         f'- Missing/too-small assets: {len(missing)}','', '## Files']

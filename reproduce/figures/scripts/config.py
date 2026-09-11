@@ -1,4 +1,4 @@
-"""Editable visual settings for Paper 13 figure redesign.
+"""Visual settings for final claim-ready MOF publication figures.
 
 No scientific values live here. This file controls typography, dimensions and colors only.
 """

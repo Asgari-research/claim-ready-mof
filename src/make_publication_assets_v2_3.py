@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Historical Paper 13 publication-asset generator.
+"""Historical publication-asset generator for the claim-ready MOF study.
 
 This script was supplied with the completed analysis and rebuilds publication
 assets from stored intermediate tables. It is retained for provenance, but it
 is not the canonical renderer for the finalized manuscript artwork.
 
 The finalized figure-regeneration workflow is maintained separately under
-``reproduce/figures/paper13`` and generates main Figures 1--5 and Supporting
+``reproduce/figures`` and generates main Figures 1--5 and Supporting
 Information Figures S0--S9 from frozen figure-source tables.
 """
 from __future__ import annotations

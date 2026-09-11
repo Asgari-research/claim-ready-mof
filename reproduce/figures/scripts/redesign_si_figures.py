@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Paper 13 SI figure redesign/regeneration: S0 through S9.
+"""Final Supporting Information figure renderer: S0 through S9.
 
 All scientific values are read from frozen CSV outputs copied from All_Results.zip.
 This script performs plotting/aggregation only; it does not rerun profiling, joins,
@@ -436,17 +436,17 @@ FUN={"S0":s0,"S1":s1,"S2":s2,"S3":s3,"S4":s4,"S5":s5,"S6":s6,"S7":s7,"S8":s8,"S9
 
 
 def main():
-    ap=argparse.ArgumentParser(description="Regenerate Paper 13 SI figures S0-S9 from frozen CSV outputs; S9 is the former main Figure 6 decision framework.")
+    ap=argparse.ArgumentParser(description="Regenerate SI figures S0-S9 from frozen CSV outputs; S9 is the former main Figure 6 decision framework.")
     ap.add_argument("--figures",nargs="*",default=list(FUN),choices=list(FUN))
     ap.add_argument("--allow-font-fallback",action="store_true",help="QA only: permit DejaVu Sans when Arial is unavailable.")
     args=ap.parse_args()
     family,resolved=setup_font(args.allow_font_fallback)
-    print("[Paper13 PATCH v6] SI generator loaded")
-    print(f"[Paper13] font={family} resolved={resolved}")
+    print("[claim-ready-mof] SI figure renderer")
+    print(f"[claim-ready-mof] font={family} resolved={resolved}")
     for f in args.figures:
-        print(f"[Paper13] Rendering SI {f}")
+        print(f"[claim-ready-mof] Rendering SI {f}")
         FUN[f]()
-    print(f"[Paper13] SI outputs written to: {OUT}")
+    print(f"[claim-ready-mof] SI outputs: {OUT}")
 
 if __name__=="__main__":
     main()

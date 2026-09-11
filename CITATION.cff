@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this software repository."
+title: "From Computation-Ready to Claim-Ready: Evidence-Aware Data for MOF Machine Learning"
+type: software
+authors:
+  - family-names: Asgari
+    given-names: Mehrdad
+  - family-names: Papadantonaki
+    given-names: Natalia Lydia
+  - family-names: Di Bella
+    given-names: Angelo
+  - family-names: Abaei
+    given-names: Shayan
+  - family-names: Alimardani
+    given-names: Hosein
+  - family-names: Jorge
+    given-names: Miguel
+  - family-names: Fletcher
+    given-names: Ashleigh
+repository-code: "https://github.com/Asgari-research/claim-ready-mof"
+version: 1.0.0
+date-released: 2026-09-11
+license: MIT

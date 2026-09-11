@@ -1,4 +1,4 @@
-name: paper13_figures
+name: claim_ready_mof_figures
 channels:
   - conda-forge
 dependencies:
