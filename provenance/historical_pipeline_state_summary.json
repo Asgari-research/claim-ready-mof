@@ -1,0 +1,195 @@
+{
+  "completed_steps": {
+    "profile_inputs": {
+      "status": "ok",
+      "seconds": 2522.700347661972,
+      "finished": "2026-07-29T11:11:42",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "file_level_profile.csv",
+        "column_level_profile.csv",
+        "target_column_context_catalog.csv"
+      ]
+    },
+    "normalize_targets": {
+      "status": "ok",
+      "seconds": 742.5956757068634,
+      "finished": "2026-07-29T11:24:05",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "normalized_target_catalog.csv",
+        "canonical_mof_index.csv",
+        "normalized_target_context_catalog.csv"
+      ]
+    },
+    "identifier_join_audit": {
+      "status": "ok",
+      "seconds": 727.5881352424622,
+      "finished": "2026-07-29T11:36:12",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "identifier_candidate_summary.csv",
+        "join_accounting.csv"
+      ]
+    },
+    "chemistry_trust": {
+      "status": "ok",
+      "seconds": 618.9651803970337,
+      "finished": "2026-07-29T11:46:31",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "trust_flags.csv",
+        "representative_rule_cards.csv",
+        "trust_regime_summary.csv"
+      ]
+    },
+    "resource_scores": {
+      "status": "ok",
+      "seconds": 8.003358840942383,
+      "finished": "2026-07-29T11:46:39",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "resource_scores.csv",
+        "benchmark_risk_matrix.csv"
+      ]
+    },
+    "descriptor_joined_ml": {
+      "status": "ok",
+      "seconds": 69317.40788650513,
+      "finished": "2026-07-30T07:01:57",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "descriptor_target_join_diagnostics.csv",
+        "descriptor_joined_ml_metrics_summary.csv"
+      ]
+    },
+    "ml_stress_test": {
+      "status": "ok",
+      "seconds": 12007.037334680557,
+      "finished": "2026-07-30T10:22:04",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "ml_metrics_summary.csv",
+        "ranking_stability.csv"
+      ]
+    },
+    "make_tables": {
+      "status": "ok",
+      "seconds": 138.87893080711365,
+      "finished": "2026-07-30T10:24:23",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "Main_Table_1_resource_atlas.csv",
+        "final_source_data_map.csv",
+        "publication_figure_style_sheet.csv"
+      ]
+    },
+    "make_figures": {
+      "status": "ok",
+      "seconds": 72.93164658546448,
+      "finished": "2026-07-30T10:25:36",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "Figure_1_claim_readiness_framework.pdf",
+        "Figure_5_ml_stress_test.pdf",
+        "Figure_6_decision_framework.pdf"
+      ]
+    },
+    "write_reports": {
+      "status": "ok",
+      "seconds": 19.61815643310547,
+      "finished": "2026-07-30T10:25:55",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "analysis_report.md",
+        "final_publication_wrapup_report.md",
+        "run_environment.json"
+      ]
+    },
+    "journal_submission": {
+      "status": "ok",
+      "seconds": 5.522533178329468,
+      "finished": "2026-07-30T10:26:01",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "README_JOURNAL_SUBMISSION.md",
+        "journal_submission_compact_report.zip"
+      ]
+    },
+    "github_audit": {
+      "status": "ok",
+      "seconds": 12.861288070678711,
+      "finished": "2026-07-30T10:26:14",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "README_GITHUB_DATA_MANUAL.md",
+        "github_preparation_compact_report.zip"
+      ]
+    },
+    "zip_package": {
+      "status": "ok",
+      "seconds": 571.7244575023651,
+      "finished": "2026-07-30T10:35:45",
+      "signature": "eba4e20147c176d1",
+      "outputs": [
+        "chemistry_ready_mof_analysis_outputs_package.zip"
+      ]
+    }
+  },
+  "config": {
+    "data_root": "<DATA_ROOT>",
+    "out_dir": "<OUTPUT_ROOT>",
+    "inventory_report": "<DATA_ROOT>/PROJECT_DATA_ARCHIVE_STRUCTURE_AND_CONTENTS.zip",
+    "save_mode": "balanced",
+    "ram_mode": "light",
+    "comprehensive_level": "thorough",
+    "n_jobs": 1,
+    "random_seed": 42,
+    "force": true,
+    "resume": true,
+    "profile_only": false,
+    "skip_ml": false,
+    "target_column": null,
+    "id_column": null,
+    "max_files": null,
+    "file_pattern": null,
+    "skip_row_count": false,
+    "no_zip": false,
+    "save": {
+      "csv": true,
+      "pkl": true,
+      "parquet": true,
+      "xlsx": true,
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "models": false,
+      "zip": true
+    },
+    "ram": {
+      "profile_nrows": 50000,
+      "max_loaded_rows": 120000,
+      "max_model_rows": 60000,
+      "max_features": 500,
+      "full_mb": 150,
+      "count_large": true
+    },
+    "level": {
+      "repeats": 10,
+      "models": [
+        "dummy",
+        "ridge",
+        "hgb",
+        "randomforest",
+        "extratrees"
+      ],
+      "splits": [
+        "random",
+        "grouped"
+      ],
+      "sensitivity": 300,
+      "targets": 5,
+      "cards": 40
+    }
+  }
+}

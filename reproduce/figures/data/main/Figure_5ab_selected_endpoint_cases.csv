@@ -1,0 +1,6 @@
+target_column,task,gas,descriptor_family,source_table,mean_r2_descriptor_grouped,mean_r2_random,mean_spearman_descriptor_grouped,mean_spearman_random,mean_top_10pct_recovery_descriptor_grouped,mean_top_10pct_recovery_random,case_label
+S(g1),post_combustion_capture,CO2,RDF,ARC-MOF::post_comb_vsa_co2.csv__RDF__rdfs.csv,0.4124560328782795,0.5213416342333976,0.7734482146959232,0.8523984963861441,0.623639774859287,0.6724202626641651,S(g1) · RDF
+mmol/g,post_combustion_capture,CO2,RDF,ARC-MOF::post_comb_vsa_co2.csv__RDF__rdfs.csv,0.485534471626846,0.6320597927884896,0.7480863720280355,0.8503948306611768,0.6476547842401501,0.7298311444652908,mmol/g · RDF
+molc/uc,post_combustion_capture,CO2,RDF,ARC-MOF::post_comb_vsa_co2.csv__RDF__rdfs.csv,0.499985629068041,0.5942082528903398,0.8269351537237775,0.8599109806931674,0.6202626641651031,0.6694183864915572,molc/uc · RDF
+v/v,post_combustion_capture,CO2,RDF,ARC-MOF::post_comb_vsa_co2.csv__RDF__rdfs.csv,0.5125514179495936,0.6396248217439263,0.8503104797378211,0.9135707030361268,0.6878048780487804,0.7377110694183864,v/v · RDF
+wt%,post_combustion_capture,CO2,RDF,ARC-MOF::post_comb_vsa_co2.csv__RDF__rdfs.csv,0.4844203022350313,0.6325922057698188,0.7517424733861306,0.8498610976347931,0.6540337711069418,0.7268292682926829,wt% · RDF

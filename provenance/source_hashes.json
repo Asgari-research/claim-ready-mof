@@ -1,0 +1,14 @@
+{
+  "chemistry_ready_mof_analysis_pipeline_v2_2_claim_ready_sciml_visual_final.py": {
+    "supplied_run_source_sha256": "16c8085d260123d6ab542e0ae98a888030645c5e221d1655c2d45a8cd13b9a07",
+    "public_source_sha256": "e695ff9600e339b2981355f0886a011138d9a0dc09892e23a53fb4a380526586",
+    "normalized_executable_ast_sha256": "a9e2ae3491b4e21b061d7731d740efb11fc517645594d0a5f869d39fe468acd3",
+    "ast_matches_supplied": true
+  },
+  "make_publication_assets_v2_3.py": {
+    "supplied_run_source_sha256": "d35f53d10cafd177bc2e46f9343f390420314d33bc10e780b03de5a9ef184e95",
+    "public_source_sha256": "3252615802808eea79fb0a6efa36dd8250e7dccb870cc89ed797cadfd0f383dd",
+    "normalized_executable_ast_sha256": "4a4570856dfd0fbd6c7b902d9552cf9c4753d70904e5b03b0252eebac62e46e3",
+    "ast_matches_supplied": true
+  }
+}

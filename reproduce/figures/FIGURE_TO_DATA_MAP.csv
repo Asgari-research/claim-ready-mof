@@ -1,0 +1,28 @@
+figure,panel,source,final_interpretation
+Figure 1,A-D,data/main/Figure_1_framework.csv,"Conceptual evidence chain and resource/claim roles; presentation only, no new scientific calculation."
+Figure 2,A,data/main/Figure_2a_resource_summary.csv,Local data-product scale and file counts.
+Figure 2,B,data/main/Figure_2b_modality_presence.csv,Observed data modalities.
+Figure 2,C,data/main/Figure_2c_missingness_composition.csv,Column-missingness composition.
+Figure 2,D,data/main/Figure_2d_readiness_scores.csv; data/main/Figure_3b_validation_observability_regimes.csv,Row-level chemistry-evidence observation; not-scanned remains distinct from observed zero.
+Figure 3,A,data/main/Figure_3a_domain_evidence_observability.csv,Direct domain-evidence observability.
+Figure 3,B,data/main/Figure_3b_validation_observability_regimes.csv,Validation-observability regime fractions.
+Figure 3,C,data/main/Figure_3c_charge_status.csv,Charge-status decomposition.
+Figure 3,D,data/main/Figure_3d_representative_rule_cards.csv,Representative evidence-state examples; final cards enlarged to prevent text clipping.
+Figure 4,A,data/main/Figure_4a_claim_readiness_map.csv,Claim-readiness coordinates and reporting-score intervals.
+Figure 4,B,data/main/Figure_4b_claim_risk_matrix.csv,Author-defined 0-3 risk-severity rubric; final artwork includes explicit color bar.
+Figure 4,C,data/main/Figure_4c_score_weight_sensitivity.csv,Score-weight sensitivity.
+Figure 5,A-B,data/main/Figure_5ab_selected_endpoint_cases.csv; data/main/SI_headline_endpoint_repeated_summary.csv,Random vs descriptor-grouped performance; R2 SD used where saved.
+Figure 5,C,data/main/Figure_5c_descriptor_family_comparison.csv,Descriptor-family comparison.
+Figure 5,D,data/main/Figure_5d_ranking_percentile.csv,Selected rank-percentile agreement example; not calibration.
+Figure S0,A-D,data/si/SI_Table_S0_inventory_resource_role_format_summary.csv; data/si/SI_Table_S1_complete_file_level_profile.csv,"Inventory footprint, resource roles, archive roles, and profile comparison."
+Figure S1,A-B,data/si/SI_Table_S1_complete_file_level_profile.csv,File-loading status and profiling depth.
+Figure S2,A-B,data/si/SI_Table_S2_complete_column_level_profile.csv,Column modalities and missingness statistics.
+Figure S3,single,data/si/SI_Table_S3_join_accounting.csv,Identifier/join accounting; duplicate file-pair diagnoses collapsed deterministically for display.
+Figure S4,A-B,data/si/SI_Table_S8_trust_flags_by_metal.csv,Metal-family coverage and within-metal trust-regime fractions.
+Figure S5,single,data/si/Figure_4c_score_sensitivity.csv,Mean rank/score with min-max rank and +/-1 SD score intervals.
+Figure S6,A-B,data/si/SI_Table_S6_complete_model_results.csv,"All 3,000 repeated-split rows; n labels are placed above whiskers in final artwork."
+Figure S7,A-B,data/si/SI_Table_S1_complete_file_level_profile.csv,Constant-column and all-missing-column diagnostics; do not describe as duplicate leakage.
+Figure S8,A-D,data/si/SI_Table_S15_representative_rule_cards.csv,One deterministic representative per available evidence class; display selection only.
+Figure S9,A,data/main/Figure_6a_decision_rules.csv + encoded display logic,Former main Figure 6 decision logic; final panel uses taller step boxes and a clean outcome branch.
+Figure S9,B,data/main/Figure_6b_reporting_checklist.csv + encoded display logic,Minimum reporting blocks.
+Figure S9,C,data/main/Figure_6c_use_case_recommendations.csv,Use-case recommendations and minimum evidence.

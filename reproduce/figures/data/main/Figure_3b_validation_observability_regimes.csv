@@ -1,0 +1,9 @@
+resource,trust_regime,fraction,n_rows
+MOSAEC-DB,flagged_or_inconsistent,0.0683987970289036,13555
+MOSAEC-DB,validated_not_observable,0.9316012029710964,184621
+CoRE MOF 2024,validated_not_observable,1.0,28132
+CoRE MOF 2025 metadata,not_scanned,1.0,0
+ARC-MOF,not_scanned,1.0,0
+QMOF,uncertain_observable,0.91645395641076,18670
+QMOF,uncertain_unobservable,0.0835460435892401,1702
+CSD-derived context,uncertain_unobservable,1.0,25285

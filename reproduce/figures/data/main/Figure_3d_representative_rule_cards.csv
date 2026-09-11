@@ -1,0 +1,4 @@
+rule_card_class,resource,primary_id,metals_detected,chemistry_trust_score_row,observability_score,interpretation,display_interpretation
+validated_not_observable,MOSAEC-DB,xujqok,Zn,0.76,0.4,oxidation state: not_observable; charge balance: not_observable; chemistry evidence only partly observable in available columns,trusted source; oxidation/charge fields are not directly observable
+uncertain_observable,QMOF,[o-]c(=o)c1cc(occ2ccccc2c(=o)o)cc(c1)c(=o)[o-].[oh2][cd].n1ccc(cc1)c=cc1ccncc1mofid-v1.sql.cat0,Cd,0.64,0.4,oxidation state: not_observable; charge balance: not_observable; chemistry evidence only partly observable in available columns,"some chemistry evidence is visible, but validation/charge evidence is incomplete"
+flagged_or_inconsistent,MOSAEC-DB,gemduy,Ag,0.28,0.6,oxidation state: not_observable; charge balance: nonzero_charge_uncertain,non-zero charge is uncertain and oxidation state is not directly observable

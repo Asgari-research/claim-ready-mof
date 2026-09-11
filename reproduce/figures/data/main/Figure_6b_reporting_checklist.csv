@@ -1,0 +1,10 @@
+item,minimum_status
+"Exact file provenance, size, version and access date",required
+Row/column/missingness table for every input file,required
+"Target-role catalog: primary target, coordinate, uncertainty, identifier, metadata",required
+Normalized target catalog with gas/property/unit/method/context,required for adsorption/process/QMOF claims
+Identifier normalization and join-retention accounting,required
+"Validation/observability trust regimes, not a single ambiguous trust label",required
+Duplicate/leakage policy and grouped splits,required for ML claims
+Exact source-data file for every figure panel,required
+Sensitivity to trust thresholds and score weights,strongly recommended

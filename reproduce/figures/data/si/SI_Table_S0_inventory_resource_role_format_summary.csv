@@ -1,0 +1,119 @@
+resource,role,extension,n_inventory_files,inventory_size_bytes,inventory_size_mb
+ARC-MOF,adsorption_targets,.csv,9,998373740,952.1233940124512
+ARC-MOF,adsorption_targets,.txt,1,872,0.00083160400390625
+ARC-MOF,descriptor_matrix,.csv,4,3092229816,2948.980155944824
+ARC-MOF,descriptor_matrix,.txt,1,875,0.0008344650268554688
+ARC-MOF,duplicate_or_diversity,.csv,2,6735563,6.4235334396362305
+ARC-MOF,duplicate_or_diversity,.txt,1,884,0.000843048095703125
+ARC-MOF,general_metadata,.gz,1,22293100,21.260356903076172
+ARC-MOF,general_metadata,.txt,2,1697,0.0016183853149414062
+ARC-MOF,process_targets,.csv,1,228656569,218.06389713287354
+ARC-MOF,process_targets,.txt,1,863,0.0008230209350585938
+ARC-MOF,structure_or_cif_metadata,.cif,763898,10227934342,9754.118291854858
+ARC-MOF,structure_or_cif_metadata,.gz,6,5669976506,5407.310968399048
+ARC-MOF,structure_or_cif_metadata,.txt,1,926,0.0008831024169921875
+ARC-MOF,topology_or_cluster,.csv,5,97528963,93.01086711883545
+ARC-MOF,topology_or_cluster,.txt,2,1732,0.001651763916015625
+CSD-derived context,curation_or_validation,.bz2,1,576371,0.5496702194213867
+CSD-derived context,curation_or_validation,.cif,15450,641506484,611.788257598877
+CSD-derived context,curation_or_validation,.conf,305,332561,0.3171548843383789
+CSD-derived context,curation_or_validation,.csv,5,7233761,6.898652076721191
+CSD-derived context,curation_or_validation,.gz,4,288777178,275.399377822876
+CSD-derived context,curation_or_validation,.mac,1,1156,0.001102447509765625
+CSD-derived context,curation_or_validation,.md,1,4239,0.004042625427246094
+CSD-derived context,curation_or_validation,.mol,85,261843,0.24971294403076172
+CSD-derived context,curation_or_validation,.mol2,3097,1170793810,1116.555986404419
+CSD-derived context,curation_or_validation,.pdb,2630,38709347,36.916110038757324
+CSD-derived context,curation_or_validation,.sdf,121,4648297,4.432961463928223
+CSD-derived context,curation_or_validation,.txt,1732,1848902,1.7632503509521484
+CSD-derived context,curation_or_validation,.xlsx,1,693269,0.6611528396606445
+CSD-derived context,curation_or_validation,.zip,3,226467455,215.97619533538818
+CSD-derived context,structure_or_cif_metadata,.cif,21281,388034018,370.0580768585205
+CSD-derived context,structure_or_cif_metadata,.txt,7,7112,0.00678253173828125
+CoRE MOF 2024,adsorption_targets,.csv,210,219674,0.20949745178222656
+CoRE MOF 2024,adsorption_targets,.txt,1,965,0.0009202957153320312
+CoRE MOF 2024,curation_or_validation,.aif,15747,10079421,9.6124849319458
+CoRE MOF 2024,curation_or_validation,.csv,145,991606,0.9456691741943359
+CoRE MOF 2024,curation_or_validation,.txt,5,4786,0.0045642852783203125
+CoRE MOF 2024,general_metadata,.cif,4,55551,0.052977561950683594
+CoRE MOF 2024,general_metadata,.csv,21,2236750,2.1331310272216797
+CoRE MOF 2024,general_metadata,.json,2,243687,0.23239803314208984
+CoRE MOF 2024,general_metadata,.py,1,1370,0.0013065338134765625
+CoRE MOF 2024,general_metadata,.txt,19,16125,0.015377998352050781
+CoRE MOF 2024,general_metadata,.xlsx,7,3640479,3.4718313217163086
+CoRE MOF 2024,general_metadata,.xyz,2,96610000,92.13447570800781
+CoRE MOF 2024,general_metadata,.zip,2,284178697,271.01392459869385
+CoRE MOF 2024,quantum_properties,.cif,1,11777,0.011231422424316406
+CoRE MOF 2024,quantum_properties,.txt,1,956,0.000911712646484375
+CoRE MOF 2024,structure_or_cif_metadata,.cif,8300,266476633,254.13192081451416
+CoRE MOF 2024,structure_or_cif_metadata,.txt,14,14245,0.013585090637207031
+CoRE MOF 2024,structure_or_cif_metadata,.zip,1,44022768,41.98338317871094
+CoRE MOF 2024,topology_or_cluster,.csv,7,7056402,6.729509353637695
+CoRE MOF 2024,topology_or_cluster,.json,2,864741,0.824681282043457
+CoRE MOF 2024,topology_or_cluster,.txt,7,6053,0.005772590637207031
+CoRE MOF 2024,topology_or_cluster,.xlsx,1,529360,0.5048370361328125
+CoRE MOF 2024,topology_or_cluster,.zip,3,7285147,6.947657585144043
+CoRE MOF 2025 metadata,general_metadata,.json,2,24947682,23.791963577270508
+CoRE MOF 2025 metadata,general_metadata,.txt,5,241706,0.23050880432128906
+CoRE MOF 2025 metadata,structure_or_cif_metadata,.cif,9256,291097440,277.6121520996094
+CoRE MOF 2025 metadata,structure_or_cif_metadata,.txt,7,6764,0.006450653076171875
+CoRE MOF 2025 metadata,structure_or_cif_metadata,.zip,1,48353657,46.113640785217285
+MOSAEC-DB,descriptor_matrix,.csv,4,3130735729,2985.7022562026978
+MOSAEC-DB,descriptor_matrix,.gz,1,928085369,885.0911798477173
+MOSAEC-DB,descriptor_matrix,.txt,5,4585,0.004372596740722656
+MOSAEC-DB,general_metadata,.csv,16,496778341,473.76474475860596
+MOSAEC-DB,general_metadata,.gz,3,122372358,116.7033748626709
+MOSAEC-DB,general_metadata,.md,1,5285,0.005040168762207031
+MOSAEC-DB,general_metadata,.py,2,15700,0.014972686767578125
+MOSAEC-DB,general_metadata,.txt,34,3456133,3.296025276184082
+MOSAEC-DB,general_metadata,.xlsx,1,35662257,34.010178565979004
+Other/unknown,general_metadata,.py,3,28819,0.02748394012451172
+QMOF,quantum_properties,.7z,0,0,0.0
+QMOF,quantum_properties,.aif,15747,10079421,9.6124849319458
+QMOF,quantum_properties,.bib,0,0,0.0
+QMOF,quantum_properties,.bz2,1,576371,0.5496702194213867
+QMOF,quantum_properties,.cif,818190,11815116245,11267.772908210754
+QMOF,quantum_properties,.conf,305,332561,0.3171548843383789
+QMOF,quantum_properties,.csv,431,8111923932,7736.1335105896
+QMOF,quantum_properties,.docx,0,0,0.0
+QMOF,quantum_properties,.feather,0,0,0.0
+QMOF,quantum_properties,.gz,15,7031504511,6705.765257835388
+QMOF,quantum_properties,.h5,0,0,0.0
+QMOF,quantum_properties,.hdf5,0,0,0.0
+QMOF,quantum_properties,.ipynb,0,0,0.0
+QMOF,quantum_properties,.jl,0,0,0.0
+QMOF,quantum_properties,.joblib,0,0,0.0
+QMOF,quantum_properties,.jpeg,0,0,0.0
+QMOF,quantum_properties,.jpg,0,0,0.0
+QMOF,quantum_properties,.json,18,8737493250,8332.722902297974
+QMOF,quantum_properties,.log,0,0,0.0
+QMOF,quantum_properties,.m,0,0,0.0
+QMOF,quantum_properties,.mac,1,1156,0.001102447509765625
+QMOF,quantum_properties,.md,6,34180,0.032596588134765625
+QMOF,quantum_properties,.mol,85,261843,0.24971294403076172
+QMOF,quantum_properties,.mol2,3097,1170793810,1116.555986404419
+QMOF,quantum_properties,.parquet,0,0,0.0
+QMOF,quantum_properties,.pdb,2630,38709347,36.916110038757324
+QMOF,quantum_properties,.pdf,0,0,0.0
+QMOF,quantum_properties,.pickle,0,0,0.0
+QMOF,quantum_properties,.pkl,0,0,0.0
+QMOF,quantum_properties,.png,0,0,0.0
+QMOF,quantum_properties,.pptx,0,0,0.0
+QMOF,quantum_properties,.py,10,51243,0.04886913299560547
+QMOF,quantum_properties,.r,0,0,0.0
+QMOF,quantum_properties,.rar,0,0,0.0
+QMOF,quantum_properties,.sdf,121,4648297,4.432961463928223
+QMOF,quantum_properties,.svg,0,0,0.0
+QMOF,quantum_properties,.tar,0,0,0.0
+QMOF,quantum_properties,.tex,0,0,0.0
+QMOF,quantum_properties,.tif,0,0,0.0
+QMOF,quantum_properties,.tiff,0,0,0.0
+QMOF,quantum_properties,.tsv,0,0,0.0
+QMOF,quantum_properties,.txt,1874,5641583,5.380232810974121
+QMOF,quantum_properties,.xls,0,0,0.0
+QMOF,quantum_properties,.xlsx,10,40525365,38.64799976348877
+QMOF,quantum_properties,.xml,0,0,0.0
+QMOF,quantum_properties,.xyz,2,96610000,92.13447570800781
+QMOF,quantum_properties,.yaml,0,0,0.0
+QMOF,quantum_properties,.yml,0,0,0.0
+QMOF,quantum_properties,.zip,20,3050496722,2909.1803760528564

@@ -1,0 +1,36 @@
+risk_issue,use_case,risk_score_0_to_3,interpretation
+missing oxidation-state/formal-charge evidence,adsorption ranking,2,moderate
+missing oxidation-state/formal-charge evidence,process screening,2,moderate
+missing oxidation-state/formal-charge evidence,quantum-property modeling,2,moderate
+missing oxidation-state/formal-charge evidence,generative training,3,high
+missing oxidation-state/formal-charge evidence,mechanistic interpretation,3,high
+nonzero charge outside explicit ionic context,adsorption ranking,3,high
+nonzero charge outside explicit ionic context,process screening,3,high
+nonzero charge outside explicit ionic context,quantum-property modeling,2,moderate
+nonzero charge outside explicit ionic context,generative training,3,high
+nonzero charge outside explicit ionic context,mechanistic interpretation,3,high
+suspect chemistry or validation warning,adsorption ranking,2,moderate
+suspect chemistry or validation warning,process screening,2,moderate
+suspect chemistry or validation warning,quantum-property modeling,2,moderate
+suspect chemistry or validation warning,generative training,3,high
+suspect chemistry or validation warning,mechanistic interpretation,3,high
+identifier ambiguity or duplicate leakage,adsorption ranking,3,high
+identifier ambiguity or duplicate leakage,process screening,3,high
+identifier ambiguity or duplicate leakage,quantum-property modeling,2,moderate
+identifier ambiguity or duplicate leakage,generative training,3,high
+identifier ambiguity or duplicate leakage,mechanistic interpretation,2,moderate
+high descriptor missingness,adsorption ranking,2,moderate
+high descriptor missingness,process screening,2,moderate
+high descriptor missingness,quantum-property modeling,1,low
+high descriptor missingness,generative training,2,moderate
+high descriptor missingness,mechanistic interpretation,1,low
+target provenance mismatch,adsorption ranking,3,high
+target provenance mismatch,process screening,3,high
+target provenance mismatch,quantum-property modeling,2,moderate
+target provenance mismatch,generative training,1,low
+target provenance mismatch,mechanistic interpretation,2,moderate
+small or biased trusted subset,adsorption ranking,2,moderate
+small or biased trusted subset,process screening,2,moderate
+small or biased trusted subset,quantum-property modeling,2,moderate
+small or biased trusted subset,generative training,2,moderate
+small or biased trusted subset,mechanistic interpretation,2,moderate
