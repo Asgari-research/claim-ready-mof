@@ -31,6 +31,15 @@ python reproduce/figures/run_figures.py
 
 The renderer writes regenerated assets under `reproduce/figures/outputs/` and does **not** overwrite the canonical PDFs under `figures/`.
 
+## Tests and revision work
+
+```bash
+pip install -r requirements-dev.txt   # Python 3.11, pinned historical versions + pytest
+python -m pytest
+```
+
+Revision work for the Digital Discovery major revision lives in `revision/` (see `revision/README.md`). The historical `src/` code and canonical `figures/` stay frozen; tests check their hashes.
+
 ## Historical scientific analysis
 
 The original full analysis ran against a large local collection of third-party MOF resources and completed all recorded pipeline stages successfully. Raw third-party databases are not redistributed here. The exact historical run configuration, captured software versions, run summary, and limitations are documented in `docs/HISTORICAL_RUN.md`.
