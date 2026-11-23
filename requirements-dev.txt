@@ -1,0 +1,2 @@
+-r environment/requirements-historical-pinned.txt
+pytest>=8
