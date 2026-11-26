@@ -6,7 +6,7 @@ Owners are proposals until confirmed at the first coordination meeting.
 | ID | Demand (short) | Proposed lead | Evidence so far | Status |
 |---|---|---|---|---|
 | E1 / R3.3 | Executed 100–200 MOF open example, raw → figure | Uzair; Shayan accepts | Figure layer regenerates only; full pipeline needs raw inputs | PENDING EVIDENCE |
-| R1.2 | Validate heuristic chemistry classification | Natalia design; Shayan chemistry; Uzair code | Substring ionic rule demonstrated (`test_R1_2_*`); token-aware rule in `claimready_fixes/ionic_context.py` | IN PROGRESS |
+| R1.2 | Validate heuristic chemistry classification | Natalia design; Shayan chemistry; Uzair code | Substring ionic rule demonstrated (`test_R1_2_*`); install-folder effect observed in reruns (`reproducibility/README.md`); token-aware, root-relative rule without NCR in `claimready_fixes/ionic_context.py` | IN PROGRESS |
 | R1.3 | Same-cohort descriptor comparison (Fig 5C) | Uzair; Shayan verifies | Families joined separately confirmed (`test_R1_3_*`) | PENDING EVIDENCE |
 | R1.4 | End-to-end traceability | Uzair; Natalia + Shayan review | First-row join loses conditions (`test_R1_4_*`); condition-preserving join in `claimready_fixes/condition_keys.py` | IN PROGRESS |
 | R1.5 | Dedup + realistic generalisation | Uzair; Shayan verifies | Tied values split across quantile groups (`test_R1_5_*`); tie-safe groups + leakage checks in `claimready_fixes/splits.py` | IN PROGRESS |

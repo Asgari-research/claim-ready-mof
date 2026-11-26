@@ -14,6 +14,7 @@ Work for the major revision lives here. The historical baseline is **frozen**:
 | `reviewer_matrix.md` | Reviewer comment → owner → evidence → status |
 | `logs/U0_feasibility.md` | U0 handoff: environment, reproducibility and missing-input report |
 | `logs/live_definitions.md` | Which copy of each redefined function in `src/` actually runs |
+| `reproducibility/README.md` | Reconstructed-input reruns and their comparison with the archived tables |
 
 Planned (per the master plan, created when work starts): `target_context/`,
 `chemistry_validation/`, `joins/`, `benchmarks/`, `example/`, `figures/`, `response/`.
@@ -37,6 +38,8 @@ python reproduce/figures/run_figures.py --allow-font-fallback
 | `tests/test_historical_smoke.py` | Historical pipeline profiling stage runs |
 | `tests/test_historical_known_issues.py` | Executable evidence of each reviewer-flagged behaviour in the frozen code (R1.2, R1.3, R1.4, R1.5, R2.2, R2.3) |
 | `tests/test_revision_fixes.py` | Corrected helpers behave as specified |
+| `tests/test_fetch_historical_inputs.py` | Input rebuild script: manifest, pinned sources, file placement, safe extraction |
+| `tests/test_compare_reproducibility.py` | Rerun comparison: path normalisation, row alignment, tolerances, derived tables |
 
 ## Handoff rule
 
