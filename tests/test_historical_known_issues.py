@@ -35,6 +35,31 @@ def test_R1_2_ionic_flag_is_path_substring(historical, path):
     assert any(k in path.lower() for k in ["ion", "charged", "salt", "ncr"])
 
 
+@pytest.mark.parametrize(
+    "root,expected_role",
+    [
+        ("C:/Users/someone/mof", "general_metadata"),
+        ("/home/someone/crmof_data", "general_metadata"),
+        ("/home/someone/Documents/Professional/MOFML/Data", "curation_or_validation"),
+    ],
+)
+def test_R1_2_file_role_depends_on_install_folder(historical, root, expected_role):
+    """role_of() also searches the absolute path, so the folder the data sits in changes the role.
+
+    Observed in the November 2026 reruns: with a data root containing "Professional", about 7,240
+    of 22,016 rows in SI Table S2 changed role to curation_or_validation.
+    """
+    rel = "data_raw/arc_mof/clean_data/clean_data.csv"
+    assert historical.role_of(Path(f"{root}/{rel}")) == expected_role
+
+
+def test_R1_2_ionic_flag_reads_absolute_path(historical):
+    """row_flags() applies the substring rule to str(p), the full path of the input file."""
+    src = inspect.getsource(historical.row_flags)
+    assert "ionic=any(k in str(p).lower()" in src
+    assert "out['file_path']=str(p)" in src
+
+
 # R1.4 / R2.6 -------------------------------------------------------------
 def test_R1_4_join_drops_second_pressure_state(historical):
     tgt = pd.DataFrame(
