@@ -2,6 +2,10 @@
 from pathlib import Path
 import ast, hashlib, json, re, subprocess, sys
 ROOT=Path(__file__).resolve().parents[1]
+# Local environments, caches and generated outputs are not part of the release.
+SKIP_DIRS={'.git','.venv','venv','env','ENV','__pycache__','.pytest_cache','.mypy_cache','.ruff_cache','outputs','qa','node_modules'}
+def tracked(p):
+    return not any(part in SKIP_DIRS for part in p.relative_to(ROOT).parts)
 errors=[]
 required=[
  'README.md','LICENSE','AUTHORS.md','CITATION.cff','docs/HISTORICAL_RUN.md','docs/CODE_PROVENANCE.md',
@@ -16,13 +20,13 @@ data=list((ROOT/'reproduce/figures/data').rglob('*.csv'))
 if len(data)!=30: errors.append(f"expected 30 figure-source CSVs, got {len(data)}")
 # Syntax
 for p in ROOT.rglob('*.py'):
-    if any(x in p.parts for x in ['outputs','qa']): continue
+    if not tracked(p): continue
     try: ast.parse(p.read_text(encoding='utf-8'))
     except Exception as e: errors.append(f"syntax: {p.relative_to(ROOT)}: {e}")
 # No public development-number naming or private paths.
 patterns=[re.compile(r'paper\s*13',re.I),re.compile(r'[A-Za-z]:\\projects\\our_group',re.I),re.compile(r'/home/shayan',re.I),re.compile(r'/mnt/c/Users/abaei',re.I)]
 for p in ROOT.rglob('*'):
-    if '.git' in p.parts: continue
+    if not tracked(p): continue
     if not p.is_file() or p.suffix.lower() in {'.pdf','.png','.svg'}: continue
     if p.resolve() == Path(__file__).resolve(): continue
     try: txt=p.read_text('utf-8',errors='ignore')

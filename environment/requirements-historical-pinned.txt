@@ -1,0 +1,10 @@
+# Versions recorded for the historical run (provenance/historical_run_environment.json,
+# environment/historical_analysis.yml). Use with Python 3.11.
+# pyarrow and openpyxl versions were not recorded in the historical metadata.
+numpy==2.4.6
+pandas==3.0.3
+matplotlib==3.11.0
+scikit-learn==1.9.0
+scipy==1.17.1
+pyarrow
+openpyxl
