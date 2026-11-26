@@ -24,12 +24,56 @@ from claimready_fixes import splits as sp
         ("CoRE2024/ION/structures.csv", True),
         ("charged_frameworks/table.csv", True),
         ("data/ionic-mofs.csv", True),
-        ("CoRE/NCR_subset.csv", True),  # historical keyword retained; see U0 report
+        ("CoRE/NCR_subset.csv", False),  # NCR = not computation-ready, not ionic
+        ("data_raw/core_mof_2024/NCR_ION_SI.xlsx", True),  # ION token, not NCR
+        ("data_raw/core_mof_2024/NCR_ASR_SI.xlsx", False),
+        ("data_raw/core_mof_2024/unmodified_check_for_NCR_SI.xlsx", False),
         ("IonCharged/x.csv", True),
     ],
 )
 def test_token_aware_ionic_context(path, expected):
     assert ic.is_ionic_context(path) is expected
+
+
+def test_ncr_is_not_an_ionic_keyword():
+    assert "ncr" not in ic.DEFAULT_KEYWORDS
+    assert "ncr" in ic.HISTORICAL_KEYWORDS
+    assert ic.historical_is_ionic_context("CoRE/NCR_subset.csv") is True
+    assert ic.is_ionic_context("CoRE/NCR_subset.csv") is False
+
+
+INSTALL_ROOTS = [
+    "C:\\Users\\someone\\mof",
+    "/home/someone/Documents/Professional/Jobs/MOFML/Data",
+    "/home/someone/crmof_data",
+    "/Users/someone/Desktop/regression_project",
+]
+
+
+@pytest.mark.parametrize("root", INSTALL_ROOTS)
+@pytest.mark.parametrize(
+    "rel,expected",
+    [
+        ("data_raw/mosaec_db/database/mosaec_db.csv", False),
+        ("data_raw/core_mof_2024/ION_data_SI_20250204.csv", True),
+        ("data_raw/csd_mof_collection/CSD_MOF_Collection/Charged frameworks.csv", True),
+    ],
+)
+def test_ionic_context_does_not_depend_on_install_folder(root, rel, expected):
+    sep = "\\" if root.startswith("C:") else "/"
+    full = root + sep + rel.replace("/", sep)
+    assert ic.is_ionic_context(full, root=root) is expected
+
+
+def test_historical_rule_depends_on_install_folder():
+    rel = "data_raw/mosaec_db/database/mosaec_db.csv"
+    assert ic.historical_is_ionic_context("C:/Users/someone/mof/" + rel) is False
+    assert ic.historical_is_ionic_context("/home/someone/Documents/Professional/MOFML/Data/" + rel) is True
+
+
+def test_relative_to_root_rejects_outside_paths():
+    with pytest.raises(ValueError):
+        ic.relative_to_root("/elsewhere/x.csv", "/home/someone/crmof_data")
 
 
 def test_compare_rules_flags_changed_files():
